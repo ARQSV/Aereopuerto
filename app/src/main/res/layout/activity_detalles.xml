@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".detalles">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="602dp"
+        android:layout_height="570dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/kk"
+        tools:layout_editor_absoluteX="-131dp"
+        tools:layout_editor_absoluteY="-89dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="35dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/white"
+        android:tint="@color/white"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="CHINA"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="39dp"
+        android:layout_height="44dp"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/usuario"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="393dp"
+        android:layout_height="517dp"
+        android:background="@drawable/borde"
+        android:backgroundTint="@color/azul"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="372dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sat. 29 jul 12:00"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto2"
+            android:text="San Francisco"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto2"
+            android:text="China"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="303dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="3h 28m"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15:35"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="57dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19:03"
+            android:textSize="34sp"
+            tools:layout_editor_absoluteX="268dp"
+            tools:layout_editor_absoluteY="57dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sat. 29 jul 12:00"
+            tools:layout_editor_absoluteX="252dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="48dp"
+            android:layout_height="36dp"
+            app:srcCompat="@drawable/salida_del_avion"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            app:srcCompat="@drawable/llegada_del_avion"
+            tools:layout_editor_absoluteX="312dp"
+            tools:layout_editor_absoluteY="137dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="323dp"
+            android:layout_height="26dp"
+            android:text="_________________________________________________"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="55dp"
+            android:layout_height="41dp"
+            app:srcCompat="@drawable/plano"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="399dp"
+            android:layout_height="93dp"
+            android:background="@color/black"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="349dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto2"
+                android:text="$ 1,500"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="86dp"
+                android:layout_height="41dp"
+                android:background="@color/black"
+                android:scaleType="centerInside"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/comprobacion_del_carrito_de_la_compra"
+                tools:layout_editor_absoluteX="272dp"
+                tools:layout_editor_absoluteY="23dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salida"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destino"
+            tools:layout_editor_absoluteX="303dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="320dp"
+            android:layout_height="38dp"
+            android:text="¡Prepárate para una experiencia emocionante y enriquecedora en este viaje transpacífico!"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
